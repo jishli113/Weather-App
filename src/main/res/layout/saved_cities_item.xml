@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/savedItemCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="50sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/savedCityName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="City Name"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/savedCityRegion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CityRegion"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/city_item_underscore"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
